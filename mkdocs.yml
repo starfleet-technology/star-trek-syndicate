@@ -1,0 +1,74 @@
+site_name: "Star Trek: Syndicate"
+repo_url: https://github.com/starfleet-technology/star-trek-syndicate
+repo_name: star-trek-syndicate
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - Intro: index.md
+  - About: about.md
+  - Legal: legal.md
+  - Contributing: contributing/index.md
+  - Core: 
+    - Quickstart: core/quickstart.md
+    - Core Rules: 
+        - Introduction: core-rules/index.md
+        - "Welcome to the Underworld": core-rules/1-welcome.md
+        - "Factions & Power Players": core-rules/2-factions.md
+        - "The Geography of Crime": core-rules/3-geography.md
+        - "Life on the Fringe": core-rules/4-characters.md
+        - "Your Ship, Your Lifeline": core-rules/5-ships.md
+        - "Tools of the Trade": core-rules/6-equipment.md
+        - "The Hustle": core-rules/7-mechanics.md
+        - "When Deals Go Bad": core-rules/8-conflict.md
+        - "The Art of the Grey": core-rules/9-gamemastering.md
+        - "Sample Operations": core-rules/10-adventures.md
+        - "Contacts & Complications": core-rules/11-npcs.md
+    #- Division Supplements: division-supplements/index.md
+    #- Quadrant Sourcebooks: quadrant-sourcebooks/index.md
+    #- Technical Manual: technical-manual/index.md
+    #- Captains Log: captains-log/index.md
+  - Adventures & Campaigns: 
+    - Overview: adventures/index.md
+    - Mission Briefs: adventures/mission-briefs/index.md
+    - Full Adventures: adventures/adventures/index.md
+    - Campaigns: campaigns/index.md
+    #- Operation Archives: adventures/logs/index.md
+    
+
+theme:
+  name: material
+  logo: https://campaign-log.starfleet.services/assets/logo.jpg
+
+  font: 
+    text: Roboto Mono
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - navigation.sections
+  palette:
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: teal 
+    accent: lime
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: teal
+    accent: lime
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode

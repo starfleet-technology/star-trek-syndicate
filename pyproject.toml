@@ -1,0 +1,10 @@
+[project]
+name = "star-trek-syndicate"
+version = "0.1.0"
+description = "A fan-made mod for Modiphius Star Trek Adventures RPG, exploring the dark shades of the universe — where latinum speaks louder than ideals, and the Federation's light casts long shadows."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.0"
+]
