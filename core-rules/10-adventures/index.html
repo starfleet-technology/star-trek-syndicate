@@ -1,0 +1,2368 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../9-gamemastering/">
+      
+      
+        <link rel="next" href="../11-npcs/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Sample Operations - Star Trek: Syndicate</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto Mono";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-10-sample-operations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Star Trek: Syndicate" class="md-header__button md-logo" aria-label="Star Trek: Syndicate" data-md-component="logo">
+      
+  <img src="https://campaign-log.starfleet.services/assets/logo.jpg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Star Trek: Syndicate
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sample Operations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/starfleet-technology/star-trek-syndicate" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    star-trek-syndicate
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Star Trek: Syndicate" class="md-nav__button md-logo" aria-label="Star Trek: Syndicate" data-md-component="logo">
+      
+  <img src="https://campaign-log.starfleet.services/assets/logo.jpg" alt="logo">
+
+    </a>
+    Star Trek: Syndicate
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/starfleet-technology/star-trek-syndicate" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    star-trek-syndicate
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Legal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/quickstart.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Rules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core Rules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-welcome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the Underworld
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-factions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Factions & Power Players
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-geography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Geography of Crime
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4-characters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Life on the Fringe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5-ships/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Your Ship, Your Lifeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6-equipment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools of the Trade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7-mechanics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Hustle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8-conflict/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    When Deals Go Bad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../9-gamemastering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Art of the Grey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Operations
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sample Operations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-tarsus-heist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "The Tarsus Heist"
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="&#34;The Tarsus Heist&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#background-and-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background and Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-intelligence-gathering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1: Intelligence Gathering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-approach-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2: Approach Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3: Execution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-resolution-and-consequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4: Resolution and Consequences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ghost-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ghost Protocol"
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="&#34;Ghost Protocol&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mission-background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mission Background
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-contact-and-briefing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1: Contact and Briefing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-preparation-and-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2: Preparation and Planning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-infiltration-and-intelligence-gathering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3: Infiltration and Intelligence Gathering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-exposure-and-aftermath" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4: Exposure and Aftermath
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#family-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Family Business"
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="&#34;Family Business&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syndicate-setting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syndicate Setting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-1-recruitment-and-positioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Act 1: Recruitment and Positioning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-2-escalation-and-complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Act 2: Escalation and Complications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-3-resolution-and-consequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Act 3: Resolution and Consequences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operation-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation Frameworks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Operation Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heist-framework-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heist Framework Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infiltration-framework-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infiltration Framework Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negotiation-framework-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negotiation Framework Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scaling-difficulty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scaling Difficulty
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scaling Difficulty">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#novice-crew-adaptations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Novice Crew Adaptations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experienced-crew-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experienced Crew Challenges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veteran-crew-complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Veteran Crew Complications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-difficulty-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variable Difficulty Factors
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-adventures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connecting Adventures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Connecting Adventures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recurring-character-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recurring Character Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consequence-threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consequence Threading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#world-evolution-and-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        World Evolution and Change
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campaign-arc-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campaign Arc Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moral-complexity-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Moral Complexity Tables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Moral Complexity Tables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#innocent-involvement-complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Innocent Involvement Complications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authority-figure-dilemmas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authority Figure Dilemmas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-and-priority-conflicts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resource and Priority Conflicts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loyalty-and-relationship-tensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Loyalty and Relationship Tensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../11-npcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contacts & Complications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adventures & Campaigns
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Adventures & Campaigns
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adventures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adventures/mission-briefs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mission Briefs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adventures/adventures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Full Adventures
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../campaigns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campaigns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-tarsus-heist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "The Tarsus Heist"
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="&#34;The Tarsus Heist&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#background-and-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Background and Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-intelligence-gathering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1: Intelligence Gathering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-approach-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2: Approach Selection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3: Execution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-resolution-and-consequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4: Resolution and Consequences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ghost-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ghost Protocol"
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="&#34;Ghost Protocol&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mission-background" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mission Background
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-1-contact-and-briefing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 1: Contact and Briefing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-2-preparation-and-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 2: Preparation and Planning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-3-infiltration-and-intelligence-gathering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 3: Infiltration and Intelligence Gathering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-4-exposure-and-aftermath" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Phase 4: Exposure and Aftermath
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#family-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Family Business"
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="&#34;Family Business&#34;">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#syndicate-setting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syndicate Setting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-1-recruitment-and-positioning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Act 1: Recruitment and Positioning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-2-escalation-and-complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Act 2: Escalation and Complications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#act-3-resolution-and-consequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Act 3: Resolution and Consequences
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operation-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operation Frameworks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Operation Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#heist-framework-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Heist Framework Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infiltration-framework-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infiltration Framework Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negotiation-framework-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negotiation Framework Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scaling-difficulty" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scaling Difficulty
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scaling Difficulty">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#novice-crew-adaptations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Novice Crew Adaptations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experienced-crew-challenges" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experienced Crew Challenges
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#veteran-crew-complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Veteran Crew Complications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#variable-difficulty-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variable Difficulty Factors
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connecting-adventures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Connecting Adventures
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Connecting Adventures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#recurring-character-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recurring Character Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#consequence-threading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consequence Threading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#world-evolution-and-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        World Evolution and Change
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#campaign-arc-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Campaign Arc Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moral-complexity-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Moral Complexity Tables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Moral Complexity Tables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#innocent-involvement-complications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Innocent Involvement Complications
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authority-figure-dilemmas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authority Figure Dilemmas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-and-priority-conflicts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resource and Priority Conflicts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loyalty-and-relationship-tensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Loyalty and Relationship Tensions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="chapter-10-sample-operations">Chapter 10: Sample Operations</h1>
+<p><em>"Every job's a learning experience. Try not to learn about prison food."</em></p>
+<p>Ready-to-run scenarios showcasing Syndicate gameplay.</p>
+<blockquote>
+<p>📖 <em>Replaces STA Core Rulebook, Chapter 10: Introductory Adventure</em></p>
+</blockquote>
+<h2 id="the-tarsus-heist">"The Tarsus Heist"</h2>
+<p><em>Steal medical supplies from a corrupt administrator</em></p>
+<h3 id="background-and-setup">Background and Setup</h3>
+<ul>
+<li>Colony administrator hoarding medical supplies during shortage</li>
+<li>Dying patients and desperate families seeking help</li>
+<li>Black market prices and profiteering corruption</li>
+<li>Moral justification for theft vs. legal consequences</li>
+</ul>
+<p><strong>Setting</strong>: Tarsus IV colony medical facility
+<strong>Timeline</strong>: 72-hour window during security system upgrade
+<strong>Stakes</strong>: Lives of patients vs. crew criminal exposure
+<strong>Complexity</strong>: Multi-phase operation with moral dilemmas</p>
+<h3 id="phase-1-intelligence-gathering">Phase 1: Intelligence Gathering</h3>
+<ul>
+<li>Facility layout and security system analysis</li>
+<li>Administrator schedule and behavior pattern assessment</li>
+<li>Supply inventory and storage location identification</li>
+<li>Security personnel routine and weakness evaluation</li>
+</ul>
+<p><strong>Objectives</strong>: Complete facility intelligence and vulnerability assessment
+<strong>Methods</strong>: Social infiltration, electronic surveillance, physical reconnaissance
+<strong>Complications</strong>: Suspicious security, time pressure, ethical information sources
+<strong>Skills</strong>: Investigation, Science, Command, Engineering</p>
+<h3 id="phase-2-approach-selection">Phase 2: Approach Selection</h3>
+<ul>
+<li>Direct infiltration vs. social engineering options</li>
+<li>Inside job recruitment vs. external operation planning</li>
+<li>Nonviolent vs. forceful approach considerations</li>
+<li>Evidence elimination and suspicion avoidance strategies</li>
+</ul>
+<p><strong>Options</strong>: Multiple approach vectors with different risk profiles
+<strong>Considerations</strong>: Crew skills, available resources, moral boundaries
+<strong>Planning</strong>: Resource allocation and role assignment decisions
+<strong>Contingencies</strong>: Backup plans and failure response protocols</p>
+<h3 id="phase-3-execution">Phase 3: Execution</h3>
+<ul>
+<li>Security bypass and facility access achievement</li>
+<li>Supply location and acquisition completion</li>
+<li>Evidence elimination and trail cleanup</li>
+<li>Extraction and escape route utilization</li>
+</ul>
+<p><strong>Challenges</strong>: Security systems, unexpected personnel, time constraints
+<strong>Skills</strong>: Engineering, Security, Medicine, Conn
+<strong>Complications</strong>: Moral choices, civilian safety, law enforcement response
+<strong>Success</strong>: Supply acquisition with minimal exposure and harm</p>
+<h3 id="phase-4-resolution-and-consequences">Phase 4: Resolution and Consequences</h3>
+<ul>
+<li>Supply distribution and patient treatment coordination</li>
+<li>Investigation response and heat level assessment</li>
+<li>Relationship impact and reputation changes</li>
+<li>Long-term consequence consideration and planning</li>
+</ul>
+<p><strong>Outcomes</strong>: Patient recovery, administrator investigation, crew exposure levels
+<strong>Consequences</strong>: Legal pursuit, moral satisfaction, reputation effects
+<strong>Follow-up</strong>: Ongoing investigation, relationship changes, future opportunities
+<strong>Lessons</strong>: Experience gain, network expansion, tactical knowledge</p>
+<h2 id="ghost-protocol">"Ghost Protocol"</h2>
+<p><em>Infiltrate a Section 31 facility for information</em></p>
+<h3 id="mission-background">Mission Background</h3>
+<ul>
+<li>Section 31 operation targeting innocent civilians</li>
+<li>Whistleblower contact seeking evidence exposure</li>
+<li>Government conspiracy and cover-up implications</li>
+<li>Deniable asset recruitment and manipulation risks</li>
+</ul>
+<p><strong>Setting</strong>: Classified Section 31 research facility
+<strong>Objective</strong>: Acquire evidence of illegal experimentation program
+<strong>Client</strong>: Former Section 31 operative seeking redemption
+<strong>Risks</strong>: Government retaliation, permanent enemy creation, moral complexity</p>
+<h3 id="phase-1-contact-and-briefing">Phase 1: Contact and Briefing</h3>
+<ul>
+<li>Whistleblower credibility assessment and motivation evaluation</li>
+<li>Mission parameter negotiation and payment discussion</li>
+<li>Risk assessment and crew capability matching</li>
+<li>Ethical consideration and moral boundary establishment</li>
+</ul>
+<p><strong>Information</strong>: Facility details, security protocols, target location
+<strong>Motivation</strong>: Client background, personal stakes, reliability assessment
+<strong>Compensation</strong>: Payment method, risk premium, success conditions
+<strong>Ethics</strong>: Mission morality, civilian protection, whistleblower safety</p>
+<h3 id="phase-2-preparation-and-planning">Phase 2: Preparation and Planning</h3>
+<ul>
+<li>Facility reconnaissance and security analysis</li>
+<li>Cover identity creation and documentation preparation</li>
+<li>Equipment acquisition and specialized tool procurement</li>
+<li>Extraction planning and emergency protocol establishment</li>
+</ul>
+<p><strong>Intelligence</strong>: Building layout, personnel schedules, security measures
+<strong>Identity</strong>: Cover stories, documentation, background verification
+<strong>Equipment</strong>: Infiltration tools, recording devices, extraction gear
+<strong>Contingency</strong>: Emergency extraction, communication protocols, abort conditions</p>
+<h3 id="phase-3-infiltration-and-intelligence-gathering">Phase 3: Infiltration and Intelligence Gathering</h3>
+<ul>
+<li>Facility access and security circumvention</li>
+<li>Target information location and acquisition</li>
+<li>Evidence collection and verification completion</li>
+<li>Operational security and detection avoidance</li>
+</ul>
+<p><strong>Access</strong>: Physical infiltration, social engineering, technical bypass
+<strong>Search</strong>: Information location, data extraction, evidence verification
+<strong>Security</strong>: Detection avoidance, counter-surveillance, operational discipline
+<strong>Extraction</strong>: Data acquisition, evidence preservation, trail elimination</p>
+<h3 id="phase-4-exposure-and-aftermath">Phase 4: Exposure and Aftermath</h3>
+<ul>
+<li>Evidence evaluation and verification process</li>
+<li>Publication method and media contact selection</li>
+<li>Protection planning and retaliation preparation</li>
+<li>Moral satisfaction vs. practical consequences assessment</li>
+</ul>
+<p><strong>Evidence</strong>: Data analysis, verification, impact assessment
+<strong>Publication</strong>: Media selection, timing, presentation method
+<strong>Protection</strong>: Crew safety, client security, witness protection
+<strong>Consequences</strong>: Government response, public reaction, personal costs</p>
+<h2 id="family-business">"Family Business"</h2>
+<p><em>Navigate Orion Syndicate politics and betrayal</em></p>
+<h3 id="syndicate-setting">Syndicate Setting</h3>
+<ul>
+<li>Crime family succession crisis and power vacuum</li>
+<li>Rival faction maneuvering and alliance shifting</li>
+<li>Traditional values vs. modern methods conflict</li>
+<li>Personal loyalty vs. business pragmatism tensions</li>
+</ul>
+<p><strong>Family</strong>: Traditional Orion crime organization structure
+<strong>Crisis</strong>: Leadership transition and succession disputes
+<strong>Politics</strong>: Internal factions, external pressures, historical grudges
+<strong>Stakes</strong>: Family survival, personal loyalty, business continuity</p>
+<h3 id="act-1-recruitment-and-positioning">Act 1: Recruitment and Positioning</h3>
+<ul>
+<li>Family contact and mission briefing</li>
+<li>Faction assessment and alliance evaluation</li>
+<li>Personal relationship establishment and trust building</li>
+<li>Initial task completion and competency demonstration</li>
+</ul>
+<p><strong>Contact</strong>: Family representative, relationship establishment, mission parameters
+<strong>Assessment</strong>: Faction strength, leader capabilities, external threats
+<strong>Relationships</strong>: Personal connections, loyalty expectations, trust development
+<strong>Tasks</strong>: Skill demonstration, loyalty testing, position establishment</p>
+<h3 id="act-2-escalation-and-complications">Act 2: Escalation and Complications</h3>
+<ul>
+<li>Rival faction moves and counter-operation requirements</li>
+<li>Personal relationship strain and loyalty conflicts</li>
+<li>External threat emergence and response coordination</li>
+<li>Betrayal discovery and response decision points</li>
+</ul>
+<p><strong>Escalation</strong>: Conflict intensification, stakes raising, pressure increase
+<strong>Loyalty</strong>: Personal vs. professional conflicts, relationship strain
+<strong>Threats</strong>: External enemies, law enforcement, business complications
+<strong>Betrayal</strong>: Discovery, response options, relationship reevaluation</p>
+<h3 id="act-3-resolution-and-consequences">Act 3: Resolution and Consequences</h3>
+<ul>
+<li>Final confrontation and loyalty demonstration</li>
+<li>Power structure resolution and new order establishment</li>
+<li>Personal relationship aftermath and trust evaluation</li>
+<li>Long-term consequence assessment and future planning</li>
+</ul>
+<p><strong>Confrontation</strong>: Final test, loyalty demonstration, capability proof
+<strong>Resolution</strong>: New leadership, power distribution, stability achievement
+<strong>Relationships</strong>: Trust evaluation, future cooperation, personal bonds
+<strong>Future</strong>: Ongoing obligations, reputation effects, business opportunities</p>
+<h2 id="operation-frameworks">Operation Frameworks</h2>
+<p><em>Templates for creating your own jobs</em></p>
+<h3 id="heist-framework-template">Heist Framework Template</h3>
+<ol>
+<li><strong>Target Assessment</strong>: Value, difficulty, moral justification</li>
+<li><strong>Intelligence Gathering</strong>: Security, personnel, environmental factors</li>
+<li><strong>Planning Phase</strong>: Approach selection, resource allocation, role assignment</li>
+<li><strong>Preparation</strong>: Equipment, training, positioning, contingency planning</li>
+<li><strong>Execution</strong>: Infiltration, acquisition, complications, adaptation</li>
+<li><strong>Extraction</strong>: Escape, evidence elimination, heat management</li>
+<li><strong>Resolution</strong>: Success evaluation, consequence management, future implications</li>
+</ol>
+<h3 id="infiltration-framework-template">Infiltration Framework Template</h3>
+<ol>
+<li><strong>Objective Definition</strong>: Information targets, access requirements, success metrics</li>
+<li><strong>Cover Development</strong>: Identity creation, background establishment, relationship building</li>
+<li><strong>Access Acquisition</strong>: Entry method, credential obtainment, position establishment</li>
+<li><strong>Intelligence Operations</strong>: Information gathering, verification, security management</li>
+<li><strong>Objective Completion</strong>: Target achievement, evidence collection, mission success</li>
+<li><strong>Extraction Planning</strong>: Exit strategy, cover maintenance, trail elimination</li>
+<li><strong>Aftermath Management</strong>: Information utilization, relationship consequences, follow-up</li>
+</ol>
+<h3 id="negotiation-framework-template">Negotiation Framework Template</h3>
+<ol>
+<li><strong>Stakeholder Analysis</strong>: Party identification, interest assessment, power evaluation</li>
+<li><strong>Preparation</strong>: Research, strategy development, BATNA establishment</li>
+<li><strong>Opening</strong>: Relationship establishment, position presentation, atmosphere setting</li>
+<li><strong>Exploration</strong>: Information gathering, option generation, creative solutions</li>
+<li><strong>Bargaining</strong>: Offer exchange, compromise development, value creation</li>
+<li><strong>Agreement</strong>: Term finalization, implementation planning, verification methods</li>
+<li><strong>Follow-through</strong>: Agreement execution, relationship maintenance, future cooperation</li>
+</ol>
+<h2 id="scaling-difficulty">Scaling Difficulty</h2>
+<p><em>Adjusting scenarios for different crew levels</em></p>
+<h3 id="novice-crew-adaptations">Novice Crew Adaptations</h3>
+<ul>
+<li>Simplified security systems and reduced complexity</li>
+<li>Helpful contacts and guidance provision</li>
+<li>Clear moral choices and obvious solutions</li>
+<li>Forgiving consequences and learning opportunities</li>
+</ul>
+<p><strong>Complexity</strong>: Reduced variable count and decision point simplification
+<strong>Support</strong>: Mentor figures, helpful contacts, guidance provision
+<strong>Morality</strong>: Clear right/wrong distinctions and obvious choices
+<strong>Consequences</strong>: Educational rather than punitive, growth-focused</p>
+<h3 id="experienced-crew-challenges">Experienced Crew Challenges</h3>
+<ul>
+<li>Complex security and multiple contingency requirements</li>
+<li>Ambiguous moral choices and competing loyalties</li>
+<li>Resource limitations and time pressure increases</li>
+<li>Serious consequences and long-term impact emphasis</li>
+</ul>
+<p><strong>Complexity</strong>: Multiple variables, interconnected systems, adaptive opposition
+<strong>Morality</strong>: Ambiguous choices, competing values, difficult decisions
+<strong>Resources</strong>: Limitation emphasis, creative solution requirements
+<strong>Stakes</strong>: Serious consequences, long-term impact, permanent changes</p>
+<h3 id="veteran-crew-complications">Veteran Crew Complications</h3>
+<ul>
+<li>Adaptive opposition and counter-intelligence operations</li>
+<li>Reputation effects and past consequence integration</li>
+<li>Political complexity and multi-faction involvement</li>
+<li>Legacy consideration and endgame planning themes</li>
+</ul>
+<p><strong>Opposition</strong>: Intelligent, adaptive, learning from crew patterns
+<strong>History</strong>: Past action consequences, reputation effects, relationship complexities
+<strong>Politics</strong>: Multi-faction involvement, complex alliance webs
+<strong>Legacy</strong>: Long-term consequence consideration, endgame planning</p>
+<h3 id="variable-difficulty-factors">Variable Difficulty Factors</h3>
+<ul>
+<li>Security system sophistication and counter-measure effectiveness</li>
+<li>Opposition competence and resource availability</li>
+<li>Time pressure and external complication frequency</li>
+<li>Moral complexity and ethical dilemma severity</li>
+</ul>
+<p><strong>Security</strong>: Technology level, human competence, counter-measure effectiveness
+<strong>Opposition</strong>: Intelligence, resources, motivation, cooperation level
+<strong>Pressure</strong>: Time constraints, external complications, cascading failures
+<strong>Ethics</strong>: Moral ambiguity, competing values, difficult choice complexity</p>
+<h2 id="connecting-adventures">Connecting Adventures</h2>
+<p><em>Building ongoing campaigns</em></p>
+<h3 id="recurring-character-integration">Recurring Character Integration</h3>
+<ul>
+<li>NPC relationship development and storyline continuation</li>
+<li>Faction standing evolution and consequence tracking</li>
+<li>Personal enemy creation and ongoing conflict management</li>
+<li>Ally relationship deepening and mutual obligation development</li>
+</ul>
+<p><strong>Characters</strong>: Development arcs, relationship evolution, motivation changes
+<strong>Factions</strong>: Standing changes, policy evolution, leadership transitions
+<strong>Enemies</strong>: Escalating conflicts, revenge cycles, power struggles
+<strong>Allies</strong>: Deepening relationships, mutual obligations, trust development</p>
+<h3 id="consequence-threading">Consequence Threading</h3>
+<ul>
+<li>Previous adventure aftermath and long-term impact integration</li>
+<li>Heat level progression and law enforcement response evolution</li>
+<li>Reputation effect accumulation and social standing changes</li>
+<li>Network development and contact relationship evolution</li>
+</ul>
+<p><strong>Aftermath</strong>: Previous adventure consequences and ongoing effects
+<strong>Heat</strong>: Accumulation patterns, law enforcement response evolution
+<strong>Reputation</strong>: Standing changes, social effects, opportunity modifications
+<strong>Networks</strong>: Contact development, relationship deepening, obligation creation</p>
+<h3 id="world-evolution-and-change">World Evolution and Change</h3>
+<ul>
+<li>Political development and power structure shifts</li>
+<li>Economic change and market evolution</li>
+<li>Technological advancement and security improvements</li>
+<li>Social movement and cultural shifts</li>
+</ul>
+<p><strong>Politics</strong>: Power changes, policy evolution, leadership transitions
+<strong>Economics</strong>: Market shifts, opportunity changes, resource availability
+<strong>Technology</strong>: Security improvements, tool advancement, capability evolution
+<strong>Society</strong>: Cultural changes, attitude shifts, movement development</p>
+<h3 id="campaign-arc-development">Campaign Arc Development</h3>
+<ul>
+<li>Overarching storyline and meta-plot progression</li>
+<li>Character growth and development tracking</li>
+<li>Thematic exploration and moral development</li>
+<li>Climactic preparation and resolution planning</li>
+</ul>
+<p><strong>Storyline</strong>: Meta-plot development, mystery unfolding, revelation pacing
+<strong>Growth</strong>: Character development tracking, skill advancement, moral evolution
+<strong>Themes</strong>: Deep exploration, value testing, philosophical development
+<strong>Climax</strong>: Preparation, buildup, satisfying resolution, legacy establishment</p>
+<h2 id="moral-complexity-tables">Moral Complexity Tables</h2>
+<p><em>Adding ethical dilemmas to any scenario</em></p>
+<h3 id="innocent-involvement-complications">Innocent Involvement Complications</h3>
+<ol>
+<li><strong>Civilian Witnesses</strong>: Bystanders who must be protected or silenced</li>
+<li><strong>Family Connections</strong>: Target has innocent relatives affected by actions</li>
+<li><strong>Collateral Damage</strong>: Operations risk harming uninvolved parties</li>
+<li><strong>Moral Exemplars</strong>: Truly good people caught in bad situations</li>
+<li><strong>Children at Risk</strong>: Minors threatened by operation consequences</li>
+<li><strong>Medical Needs</strong>: Life-threatening conditions requiring immediate attention</li>
+</ol>
+<h3 id="authority-figure-dilemmas">Authority Figure Dilemmas</h3>
+<ol>
+<li><strong>Corrupt but Competent</strong>: Effective leaders with moral compromises</li>
+<li><strong>Misguided Idealists</strong>: Good intentions leading to harmful policies</li>
+<li><strong>Blackmailed Officials</strong>: Authority figures under external pressure</li>
+<li><strong>Reformed Criminals</strong>: Former lawbreakers now serving justice</li>
+<li><strong>Desperate Measures</strong>: Officials making hard choices under pressure</li>
+<li><strong>Institutional Loyalty</strong>: Good people serving flawed systems</li>
+</ol>
+<h3 id="resource-and-priority-conflicts">Resource and Priority Conflicts</h3>
+<ol>
+<li><strong>Triage Decisions</strong>: Limited resources requiring hard choices</li>
+<li><strong>Competing Claims</strong>: Multiple parties with legitimate needs</li>
+<li><strong>Temporal Conflicts</strong>: Long-term vs. short-term benefit considerations</li>
+<li><strong>Scale Dilemmas</strong>: Individual vs. community benefit tensions</li>
+<li><strong>Prevention Paradoxes</strong>: Stopping future harm through present action</li>
+<li><strong>Information Asymmetry</strong>: Decisions made with incomplete knowledge</li>
+</ol>
+<h3 id="loyalty-and-relationship-tensions">Loyalty and Relationship Tensions</h3>
+<ol>
+<li><strong>Competing Loyalties</strong>: Multiple obligations requiring choice</li>
+<li><strong>Trust Violations</strong>: Betraying confidence for greater good</li>
+<li><strong>Family vs. Duty</strong>: Personal relationships vs. moral obligations</li>
+<li><strong>Friendship Costs</strong>: Harming friends for principle adherence</li>
+<li><strong>Professional Ethics</strong>: Job requirements vs. personal values</li>
+<li><strong>Community Standards</strong>: Individual conscience vs. group expectations</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
